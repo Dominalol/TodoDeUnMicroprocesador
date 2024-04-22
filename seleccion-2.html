@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TodoDeUnMicroprocesadorDeEscritorio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts-amd.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo-principal" align="center">Todo De Un Microprocesador de Escritorio</h1>
+    </header>
+    <br><br>
+    <table width="80%" border="1" align="center" cellspacing="1">
+        <tr>
+            <th colspan="5">
+                <h2 align="center">Selecciona una de las 2 opciones</h2>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="4">
+                <a href="seleccion-1.html">
+                    <img src="Imagenes/intel-logo.png" width="156" height="156" align="center">
+                </a>
+            </th>
+            <th colspan="4">
+                <a href="seleccion-2.html">
+                    <img src="Imagenes/amd-logo.png" width="156" height="156" align="center">
+                </a>
+            </th>
+        </tr>
+        
+        <tr>
+            <td>
+
+            </td>
+            <th colspan="5">
+                <ul align="left">
+                    <li><button id="amd-seleccion" onclick="verificarProcesador()" data-valor="unoa">uno</button></li>
+                    <li><button id="amd-seleccion2" onclick="verificarProcesador2()" data-valor="dosa">dos</button></li>
+                    <li><button id="amd-seleccion3" onclick="verificarProcesador3()" data-valor="tresa">tres</button></li>
+                    <li><button id="amd-seleccion4" onclick="verificarProcesador4()" data-valor="cuatroa">cuatro</button></li>
+                    <p id="mensaje">holaaaa</p>
+                </ul>
+            </th>
+        </tr>
+    </table>

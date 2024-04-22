@@ -1,0 +1,17 @@
+#titulo-principal{
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 20px 0px;
+    border-bottom: 10px solid #0071c5;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    background-color: #0071c5;
+}
+button{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
