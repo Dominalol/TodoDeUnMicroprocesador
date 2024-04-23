@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TodoDeUnMicroprocesadorDeEscritorio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <table id="borde-izquierdo-intel" align="left" height="710" width="100">
+        <tr>
+            <th colspan="3">
+                
+            </th>
+        </tr>
+    </table>
+    <table id="borde-derecho-intel" align="right" height="710" width="100">
+        <tr>
+            <th>
+                
+            </th>
+        </tr>
+    </table>
+    <header>
+        <h1 align="center" id="titulo-principal-intel">Todo De Un Microprocesador de Escritorio</h1>
+    </header>
+    <br><br>
+    <table width="80%" border="0" align="center" cellspacing="1">
+        <tr>
+            <th colspan="5" id="intel-amd2">
+                <h2 align="center">Selecciona una de las 2 opciones</h2>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="4" id="tabla-intel">
+                <a href="seleccion-1.html">
+                    <img src="Imagenes/intel-logo.png" width="156" height="156" align="center">
+                </a>
+            </th>
+            <th colspan="4" id="tabla-amd">
+                <a href="seleccion-2.html">
+                    <img src="Imagenes/amd-logo.png" width="156" height="156" align="center">
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li><button id="intel-seleccion" onclick="verificarProcesador()" data-valor="uno">uno</button></li>
+                    <li><button id="intel-seleccion2" onclick="verificarProcesador2()" data-valor="dos">dos</button></li>
+                    <li><button id="intel-seleccion3" onclick="verificarProcesador3()" data-valor="tres">tres</button></li>
+                    <li><button id="intel-seleccion4" onclick="verificarProcesador4()" data-valor="cuatro">cuatro</button></li>
+                    <p id="mensaje">holaaaa</p>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table width="1300" align="center">
+        <tr align="center">
+            <td>
+                <button id="intel-caracteristicas" onclick="verificarCaracteristicas()">Caracteristicas</button>
+            </td>
+            <td>
+                <button id="intel-arquitectura" onclick="verificarArquitectura()">Arquitectura</button>
+            </td>
+            <td>
+                <button id="intel-review" onclick="verificarReview()">Review</button>
+            </td>
+            <td>
+                <button id="intel-comprar" onclick="verificarComprar()">Comprar</button>
+            </td>
+        </tr>
+    </table>
