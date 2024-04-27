@@ -7,25 +7,11 @@
 </head>
 
 <body>
-    <table id="borde-izquierdo-amd" align="left" height="710" width="100">
-        <tr>
-            <th colspan="3">
-                
-            </th>
-        </tr>
-    </table>
-    <table id="borde-derecho-amd" align="right" height="710" width="100">
-        <tr>
-            <th>
-                
-            </th>
-        </tr>
-    </table>
     <header>
         <h1 align="center" id="titulo-principal-amd">Todo De Un Microprocesador de Escritorio</h1>
     </header>
-    <br><br>
-    <table width="80%" border="0" align="center" cellspacing="1">
+    <br>
+    <table width="80%" align="center" cellspacing="1">
         <tr>
             <th colspan="5" id="intel-amd2">
                 <h2 align="center">Selecciona una de las 2 opciones</h2>
@@ -43,35 +29,41 @@
                 </a>
             </th>
         </tr>
-        
+        <table width="40%" align="center" cellspacing="1" id="tabla-lista-intel">
         <tr>
-            <td>
-
-            </td>
-            <th colspan="5">
-                <ul align="left">
-                    <li><button id="amd-seleccion" onclick="verificarProcesador()" data-valor="unoa">uno</button></li>
-                    <li><button id="amd-seleccion2" onclick="verificarProcesador2()" data-valor="dosa">dos</button></li>
-                    <li><button id="amd-seleccion3" onclick="verificarProcesador3()" data-valor="tresa">tres</button></li>
-                    <li><button id="amd-seleccion4" onclick="verificarProcesador4()" data-valor="cuatroa">cuatro</button></li>
-                    <p id="mensaje">holaaaa</p>
-                </ul>
+            <th id="amd-lista">
+                <h1>Selecciona el Procesador</h1>
+                <select id="procesador-amd" name="procesador">
+                    <option value="intel-4004">Intel 4004</option>
+                    <option value="intel-4040">Intel-4040</option>
+                    <option value="intel-8008">Intel-8008</option>
+                    <option value="intel-8080">intel-8080</option>
+                    <option value="intel-8086">intel-8086</option>
+                    <option value="intel-80286">Intel-80286</option>
+                    <option value="intel-80386">Intel-80386</option>
+                    <option value="intel-80486">Intel-80486</option>
+                    <option value="pentium">Pentium</option>
+                    <option value="pentium-pro">Pentium Pro</option>
+                    <option value="pentium-II">Pentium II</option>
+                    <option value="pentium-III">Pentium III</option>
+                    <option value="intel-celeron">Intel Celeron</option>
+                    <option value="intel-xeon">Intel Xeon</option>
+                    <option value="pentium-4">Pentium 4</option>
+                    <option value="pentium-50">Pentium 50</option>
+                    <option value="pentium-60 ">Pentium 60</option>
+                    <option value="pentium-66 ">Pentium 66</option>
+                    <option value="pentium-75">Pentium 75</option>
+                    <option value="Pentium-90">Pentium 90</option>
+                </select>
+                <p id="processor-info"></p> <script src="script-frame-intel.js"></script>
             </th>
-        </tr>
+        <tr>
+        </table>    
     </table>
-    <table width="1300" align="center">
-        <tr align="center">
-            <td>
-                <button id="amd-caracteristicas" onclick="verificarCaracteristicas()">Caracteristicas</button>
-            </td>
-            <td>
-                <button id="amd-arquitectura" onclick="verificarArquitectura()">Arquitectura</button>
-            </td>
-            <td>
-                <button id="amd-review" onclick="verificarReview()">Review</button>
-            </td>
-            <td>
-                <button id="amd-comprar" onclick="verificarComprar()">Comprar</button>
-            </td>
-        </tr>
-    </table>
+    <br><br>
+    <div class="contenedor-botones">
+        <button id="amd-caracteristicas" onclick="verificarCaracteristicas()">Caracteristicas</button>
+        <button id="amd-arquitectura" onclick="verificarArquitectura()">Arquitectura</button>
+        <button id="amd-review" onclick="verificarReview()">Review</button>
+        <button id="amd-comprar" onclick="verificarComprar()">Comprar</button>
+    <div>

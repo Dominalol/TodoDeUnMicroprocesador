@@ -1,62 +1,36 @@
+@font-face {
+    font-family: "varino";
+    src: url("Fuentes/Varino.otf");
+}
 #titulo-principal{
-    font-family: 'Arial', sans-serif;
-    font-size: 60px;
-    border-radius: 15px;
+    font-family: 'varino', sans-serif;
+    font-size: 50px;
     background-color: #333;
-    border-style: none;
-    color: aliceblue;
+    border-color: #333;
+    text-align: center;
+    border-radius: 15px;
+    border: 10px solid;
 }
 #titulo-principal-intel{
-    font-family: 'Arial', sans-serif;
-    font-size: 60px;
+    font-family: 'varino', sans-serif;
+    font-size: 50px;
     border-radius: 15px;
     background-color: #0071c5;
-    border-style: none;
+    border: 10px solid;
     color: aliceblue;
-}
-#titulo-principal-amd{
-    font-family: 'Arial', sans-serif;
-    font-size: 60px;
-    border-radius: 15px;
-    background-color: #2ca62a;
-    border-style: none;
-    color: aliceblue;
+    
 }
 body{
-    background-image: url(Imagenes/fondo.png);
+    background-image: url(Imagenes/fondo-1.png);
     background-size: cover;
 }
-#borde-izquierdo{
+#titulo-principal-amd{
+    font-family: 'varino', sans-serif;
+    font-size: 50px;
     border-radius: 15px;
-    background-color: #333;
-    border-style: none;
-}
-#borde-derecho{
-    border-radius: 15px;
-    background-color: #333;
-    border-style: none;
-}
-
-#borde-izquierdo-intel{
-    border-radius: 15px;
-    background-color: #0071c5;
-    border-style: none;
-}
-#borde-derecho-intel{
-    border-radius: 15px;
-    background-color: #0071c5;
-    border-style: none;
-}
-
-#borde-izquierdo-amd{
-    border-radius: 15px;
-    background-color: #d1782a;
-    border-style: none;
-}
-#borde-derecho-amd{
-    border-radius: 15px;
-    background-color: #d1782a;
-    border-style: none;
+    background-color: #FF7F00;
+    border: 10px solid;
+    color: black;
 }
 button{
     background-color: transparent;
@@ -65,6 +39,7 @@ button{
     
 }
 #intel-amd{
+    font-family: 'varino', sans-serif;
     background-color: #333;
     border-style: solid;
     border-radius: 15px;
@@ -76,6 +51,7 @@ button{
     border-style: solid;
     border-radius: 15px;
     color: aliceblue;
+    font-family: 'varino', sans-serif
 }
 #tabla{
     background-color: #333;
@@ -98,63 +74,127 @@ button{
     border-radius: 15px;
 }
 #tabla-amd2{
-    background-color: #d1782a;
+    background-color: #FF7F00;
     border-style: solid;
     border-radius: 15px;
+}
+#intel-lista{
+    background-color: #0071c5;
+    border-style: solid;
+    border-radius: 15px;
+    align-content: start;
+    color: aliceblue;
+}
+#amd-lista{
+    background-color: #FF7F00;
+    border-style: solid;
+    border-radius: 15px;
+    color: #000000;
 }
 #intel-caracteristicas{
     background-color: #0071c5;
     border-radius: 15px;                 /* empieza botones intel */
     border-style: solid;
-    font-size: 40px;
-    color: #000000;
+    font-size: 200%;
+    color: aliceblue;
+    font-family: 'varino', sans-serif;
 }
 #intel-arquitectura{
     background-color: #0071c5;
     border-radius: 15px;
     border-style: solid;
-    font-size: 40px;
-    color: #000000;
+    font-size: 200%;
+    color: aliceblue;
+    font-family: 'varino', sans-serif;
 }
 #intel-review{
     background-color: #0071c5;
     border-radius: 15px;
     border-style: solid;
-    font-size: 40px;
-    color: #000000;
+    font-size: 200%;
+    color: aliceblue;
+    font-family: 'varino', sans-serif;
 }
 #intel-comprar{
     background-color: #0071c5;
     border-radius: 15px;
     border-style: solid;                     /* Termina botones intel */
-    font-size: 40px;
-    color: #000000;
+    font-size: 200%;
+    color: aliceblue;
+    font-family: 'varino', sans-serif;
 }
 #amd-caracteristicas{
-    background-color: #d1782a;
+    background-color: #FF7F00;
     border-radius: 15px;
     border-style: solid;                  /* empieza botones amd */   
-    font-size: 40px;
-    border-color: #2ca62a;
+    font-size: 200%;
+    border-color: black;
+    font-family: 'varino', sans-serif;
 }
 #amd-arquitectura{
-    background-color: #d1782a;
+    background-color: #FF7F00;
     border-radius: 15px;
     border-style: solid;
-    font-size: 40px;           
-    border-color: #2ca62a;
+    font-size: 200%;           
+    border-color: black;
+    font-family: 'varino', sans-serif;
 }
 #amd-review{
-    background-color: #d1782a;
+    background-color: #FF7F00;
     border-radius: 15px;
     border-style: solid;
-    font-size: 40px;
-    border-color: #2ca62a;
+    font-size: 200%;
+    border-color: black;
+    font-family: 'varino', sans-serif;
 }
 #amd-comprar{
-    background-color: #d1782a;
+    background-color: #FF7F00;
     border-radius: 15px;
     border-style: solid;                 /* termina botones amd */
-    font-size: 40px;
-    border-color: #2ca62a;
+    font-size: 200%;
+    border-color: black;
+    font-family: 'varino', sans-serif;
 }
+#procesador-amd{
+    border-radius: 15px;
+    background-color:  #FF7F00;
+    color: #000000;
+    font-weight: 800;
+}
+#procesador-intel{
+    border-radius: 15px;
+    background-color: #0071c5;
+    color: aliceblue;
+    font-weight: 800;
+}
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedor-botones button {
+    margin: 5px;
+    padding: 10px 20px;
+  }
+  .contenedor-botones {
+    display: flex; /* Hace que los botones se comporten como una fila */
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Alinea los botones verticalmente dentro del contenedor */
+  }
+  .contenedor-botones button {
+    /* Establece estilos para los botones como margen, relleno, tamaño de fuente, etc. */
+    margin: 5px; /* Agrega un poco de margen entre botones */
+    padding: 10px 20px; /* Agrega un poco de relleno dentro de los botones */
+  }
+  
+  @media (max-width: 1350px) {
+    .contenedor-botones {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contenedor-botones button {
+      margin: 10px; /* Ajustar el espaciado en pantallas pequeñas */
+    }
+  }
