@@ -1,0 +1,18 @@
+
+body{
+    background-image: url(Imagenes/fondo-1.png);
+    background-size: cover;
+}
+h1{
+    font-family: 'varino', sans-serif;
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: #0071c5;
+    border: 10px solid;
+    color: aliceblue;
+    
+}
+body{
+
+color: aliceblue;
+}
