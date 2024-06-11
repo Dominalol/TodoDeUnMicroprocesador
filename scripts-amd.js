@@ -24,3 +24,17 @@ function redireccionarArquitectura() {
         alert("Por favor, selecciona un procesador primero.");
     }
 }
+function compararEspecificacionesAMD() {
+    // Redirige al usuario a la página "comparacion.html"
+    window.location.href = "comparacion-amd.html";
+}
+
+function restablecerFrames() {
+    // Restablecer el contenido de los frames comparacion-1 y comparacion-2
+    parent.frames['comparacion-1-amd'].location.href = 'comparacion-1-amd.html';
+    parent.frames['comparacion-2-amd'].location.href = 'comparacion-2-amd.html';
+}
+function Regresar() {
+    // Cambiar la URL del marco principal de vuelta a la página principal (índice)
+    parent.location.href = 'seleccion-2.html';
+}

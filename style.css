@@ -29,6 +29,26 @@ title{
     color: aliceblue;
     
 }
+#titulo-comparacion-intel{
+    font-family: 'varino', sans-serif;
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: #0071c5;
+    border: 10px solid;
+    color: aliceblue;
+    padding: 10px 20px;
+    
+}
+#titulo-comparacion-amd{
+    font-family: 'varino', sans-serif;
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: #FF7F00;
+    border: 10px solid;
+    color: #000000;
+    padding: 10px 20px;
+    
+}
 body{
     background-image: url(Imagenes/fondo-1.png);
     background-size: cover;
@@ -108,26 +128,10 @@ button{
     color: aliceblue;
     font-family: 'varino', sans-serif;
 }
-#intel-arquitectura{
+#intel-comparar{
     background-color: #0071c5;
-    border-radius: 15px;
+    border-radius: 15px;                 /* empieza botones intel */
     border-style: solid;
-    font-size: 200%;
-    color: aliceblue;
-    font-family: 'varino', sans-serif;
-}
-#intel-review{
-    background-color: #0071c5;
-    border-radius: 15px;
-    border-style: solid;
-    font-size: 200%;
-    color: aliceblue;
-    font-family: 'varino', sans-serif;
-}
-#intel-comprar{
-    background-color: #0071c5;
-    border-radius: 15px;
-    border-style: solid;                     /* Termina botones intel */
     font-size: 200%;
     color: aliceblue;
     font-family: 'varino', sans-serif;
@@ -140,26 +144,10 @@ button{
     border-color: black;
     font-family: 'varino', sans-serif;
 }
-#amd-arquitectura{
+#amd-comparar{
     background-color: #FF7F00;
     border-radius: 15px;
-    border-style: solid;
-    font-size: 200%;           
-    border-color: black;
-    font-family: 'varino', sans-serif;
-}
-#amd-review{
-    background-color: #FF7F00;
-    border-radius: 15px;
-    border-style: solid;
-    font-size: 200%;
-    border-color: black;
-    font-family: 'varino', sans-serif;
-}
-#amd-comprar{
-    background-color: #FF7F00;
-    border-radius: 15px;
-    border-style: solid;                 /* termina botones amd */
+    border-style: solid;                  /* empieza botones amd */   
     font-size: 200%;
     border-color: black;
     font-family: 'varino', sans-serif;
@@ -227,4 +215,20 @@ button{
 /* Estilos para las opciones del select */
 #procesador-amd option {
     font-size: 16px;
+}
+#intel-Regresar{
+    background-color: #0071c5;
+    border-radius: 15px;                 /* empieza botones intel */
+    border-style: solid;
+    font-size: 200%;
+    color: aliceblue;
+    font-family: 'varino', sans-serif;
+}
+#amd-Regresar{
+    background-color: #FF7F00;
+    border-radius: 15px;                 /* empieza botones intel */
+    border-style: solid;
+    font-size: 200%;
+    color: #000000;
+    font-family: 'varino', sans-serif;
 }
